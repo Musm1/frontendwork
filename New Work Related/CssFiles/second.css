@@ -1,0 +1,113 @@
+.Container {
+  max-width: 1280px;
+  margin: auto;
+  font-family: "Segoe UI", Regular;
+}
+/* font awesome coloring*/
+.fa-dog {
+  margin-left: 10px;
+  color: #ffbb00;
+}
+.fa-download {
+  color: #8f8c8c;
+}
+.fa-plus-circle {
+  color: #8f8c8c;
+}
+/* font awesome coloring end */
+.flex {
+  display: flex;
+}
+
+.pStyle {
+  font-family: Verdana, bold;
+  font-weight: bolder;
+  color: #000000;
+  padding-left: 2rem;
+  font-size: 20px;
+}
+
+.center {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+/* button style */
+.bStyle {
+  margin-top: 20px;
+  border: none;
+  background: none;
+  background-color: #037dd6;
+  font-size: 25px;
+  color: #ffffff;
+  width: 300px;
+  padding: 12px 34px;
+  border-radius: 12px;
+  font-family: "Segoe UI", Regular;
+}
+
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  width: 400px;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/* Style the counter cards */
+.card {
+  padding: 25px;
+  height: 240px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 2px solid #bebaba;
+  outline: 1px;
+  border-radius: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 770px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .bStyle {
+    width: 200px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 270px) {
+  .bStyle {
+    width: 100px;
+    font-size: 7px;
+  }
+}

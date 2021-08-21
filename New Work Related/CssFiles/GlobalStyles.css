@@ -1,0 +1,18 @@
+/* defining max-width+ adjusting margins and font family, as for now i created buttons styles in each css file. but usually
+i create a single button or div or input field in global css and use it everywhere but for now ive done it separately*/
+
+.ParentContainer {
+  max-width: 1280px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Regular;
+}
+.container {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}

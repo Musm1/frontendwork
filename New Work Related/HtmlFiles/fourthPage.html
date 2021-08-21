@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fourth page</title>
+    <link href="http://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
+    <!-- css files -->
+    <link rel="stylesheet" href="../CssFiles/fourth.css">
+    <link rel="stylesheet" href="../CssFiles/fontawesome/css/all.min.css">
+    </head>
+    <!-- style added for checkbox as it was giving error in css file. -->
+        <style>
+            /* The container */
+            .container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            margin-top: 20px;
+            }
+            
+            /* Hide the browser's default checkbox */
+            .container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+            }
+            
+            /* Create a custom checkbox */
+            .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #eee;
+            }
+            
+            /* On mouse-over, add a grey background color */
+            .container:hover input ~ .checkmark {
+            background-color: #ccc;
+            }
+            
+            /* When the checkbox is checked, add a blue background */
+            .container input:checked ~ .checkmark {
+            background-color: #2196F3;
+            }
+            
+            /* Create the checkmark/indicator (hidden when not checked) */
+            .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+            }
+            
+            /* Show the checkmark when checked */
+            .container input:checked ~ .checkmark:after {
+            display: block;
+            }
+            
+            /* Style the checkmark/indicator */
+            .container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid white;
+            border-width: 0 3px 3px 0;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+            }
+            </style>
+<body>
+    <div class="Container">
+        <div class="flex">
+            <i class="fas fa-3x fa-dog"></i>
+            <p class="pStyle">MetaMask</p>
+        </div>
+        <a href="./thirdPage.html">
+            <div class="flextwo">
+                <div class="flextwoleft">
+                    <i class="fas fa-2x fa-chevron-left"></i>
+                </div>
+                <div class="flextworight">
+                    <h2>Back</h2>
+                </div>
+            </div>
+        </a>
+        <div class="h1Style">
+            <h1>Create Password</h1>
+        </div>
+
+        <form>
+            <label class="labelStyle">New Password (min 8 digits)</label></br>
+            <input class="transform" type="text"required></br>
+
+            <label class="labelStyle">Confirm password</label></br>
+            <input class="transform" type="text"required></br>
+
+
+            <label class="container">I have read and agree to the <b style="color: #0AB4FF;">Term of use</b>
+            <input type="checkbox">
+            <span class="checkmark"></span>
+            </label>
+
+            <button class="createStyle">Create</button>
+        </form>
+        
+    </div>
+</body>
+</html>

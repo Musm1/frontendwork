@@ -1,0 +1,89 @@
+.Container {
+  max-width: 1280px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Semibold;
+}
+
+/* font awesome coloring*/
+.fa-dog {
+  color: #ffbb00;
+}
+.fa-question-circle {
+  color: #d4d4d4;
+}
+.fa-check {
+  color: #46d500;
+  font-weight: lighter;
+  vertical-align: middle;
+}
+.fa-times {
+  color: #e30000;
+}
+
+/* font awesome coloring end */
+.flex {
+  margin-left: 10px;
+  display: flex;
+}
+
+.pStyle {
+  font-family: Verdana, bold;
+  font-weight: bolder;
+  color: #000000;
+  padding-left: 2rem;
+  font-size: 20px;
+}
+
+.adjusting {
+  margin-top: 30px;
+}
+
+.custmHtag {
+  color: #000000;
+  font-weight: 900;
+}
+
+.paraStyle {
+  max-width: 45em;
+  color: #000000;
+}
+
+.flextwo {
+  display: flex;
+  align-items: initial;
+}
+.flextwo1 {
+  margin-top: 10px;
+  align-content: inherit;
+  flex: 1;
+}
+.flextwo2 {
+  flex: 20;
+}
+
+.agreeStyle {
+  margin-top: 20px;
+  border: none;
+  background: none;
+  background-color: #037dd6;
+  font-size: 25px;
+  color: #ffffff;
+  width: 300px;
+  padding: 12px 34px;
+  border-radius: 12px;
+  font-family: "Segoe UI", Regular;
+}
+.noStyle {
+  margin-top: 20px;
+  border: none;
+  background: none;
+  background-color: #e1e3e5;
+  font-size: 25px;
+  color: #b5aeae;
+  width: 300px;
+  padding: 12px 34px;
+  border-radius: 12px;
+  font-family: "Segoe UI", Regular;
+}

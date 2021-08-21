@@ -1,0 +1,44 @@
+.fa-dog {
+  color: #ffbb00;
+}
+
+.container {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  font-family: "Segoe UI", Regular;
+}
+.h1 {
+  color: #000000;
+  font-weight: lighter;
+}
+
+.pStyle {
+  max-width: 30rem;
+  text-align: center;
+  margin-bottom: 0%;
+}
+
+.bStyle {
+  padding: 0;
+  border: none;
+  background: none;
+  background-color: #037dd6;
+  font-size: 25px;
+  color: #ffffff;
+  width: 300px;
+  padding: 12px 34px;
+  border-radius: 12px;
+  font-family: "Segoe UI", Regular;
+}
+
+@media (max-width: 340px) {
+  .h1 {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    width: auto;
+  }
+}
